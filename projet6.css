@@ -1,0 +1,20 @@
+body {
+	background-image: url(Imagesportfolio/fond404.png);
+	background-size: cover;
+}
+
+p {
+	text-align: center;
+	margin-top: 100px;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 200%;
+	font-family: 'Satisfy', cursive;
+}
+
+img {
+	width: 10%;
+}

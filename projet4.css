@@ -1,0 +1,156 @@
+video {
+  margin-left: 120px;
+  width: 78%;
+
+}
+
+section {
+    margin-top: -290px;
+}
+
+footer {
+  position: fixed;
+  bottom: -10px;
+  margin-left: -350px;
+}
+
+html body {
+  height: 100%;
+  display: flex;
+  margin: 50vh;
+}
+
+body {
+  background: #082330;
+  background-size: .12em 100%;
+  font: 16em/1 Roboto;
+}
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; margin:0; padding:0; }
+
+
+p {
+  font-family: 'Bree Serif', serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 75px;
+  margin-top: -50px;
+  text-align: justify;
+  text-justify: inter-word;
+  background: linear-gradient(to right,#0071a8 0%, #0082c1, #0094db, #179fe7, #25abf3, #30b6ff, #44bdff, #56c5ff, #67ccff, #77d3ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left {
+  float: left;
+  margin-left: -50px;
+  width: 260px;
+}
+
+.right {
+  float: right;
+  margin-right: -400px;
+  width: 260px;
+}
+
+.content {
+  margin: 5px auto;
+  margin-bottom: -300px;
+  width: 650px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+.text--line {
+  font-size: .5em;
+}
+
+svg {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  margin-left: -173px;
+  margin-top: -290px;
+}
+
+
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 3px;
+  -webkit-animation: stroke-offset 10s infinite linear;
+          animation: stroke-offset 10s infinite linear;
+}
+.text-copy:nth-child(1) {
+  stroke: #0EF907;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(2) {
+  stroke: #D61C59;
+  stroke-dashoffset: 14%;
+}
+.text-copy:nth-child(3) {
+  stroke: #E7D84B;
+  stroke-dashoffset: 21%;
+}
+.text-copy:nth-child(4) {
+  stroke: #FFF;
+  stroke-dashoffset: 28%;
+}
+.text-copy:nth-child(5) {
+  stroke: #2496EE;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+
+
+
+
+
+.p
+{
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 10%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg,#082330,#fff,#082330);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position-x: -400%;
+  }
+  100%
+  {
+    background-position-x: 400%;
+  }
+}

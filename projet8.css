@@ -1,0 +1,33 @@
+body {
+	background-image: url(Imagesportfolio/fondjour5.jpg);
+	background-size: cover;
+}
+
+video {
+	width: 50%;
+	margin-top: -130px;
+}
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.p {
+	color: white;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-left: 690px;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+
+h3 {
+	color: white;
+	font-size: 250%;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
